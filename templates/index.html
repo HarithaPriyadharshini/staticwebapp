@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flask Static App</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles.css') }}"
+    />
+  </head>
+  <body>
+    <h1>Welcome to My Static Flask Web App 🎉</h1>
+    <p>This is a static website served with Flask on Azure App Service.</p>
+    <a href="/about">About Page</a>
+  </body>
+</html>
